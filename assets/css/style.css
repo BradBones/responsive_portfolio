@@ -7,8 +7,6 @@ General rules that cover the entire document */
 body {
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background: #999999;
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/qbkls.png);
     box-sizing: border-box;
 }
 
@@ -368,7 +366,7 @@ they have diferent aspect ratios.
       }
       .portpic {
         width: 510px;
-        height: 380px;  
+        height: auto;  
     }
       .banner1 {
         width: 510px;
