@@ -317,14 +317,13 @@ they have diferent aspect ratios.
     header {
         position: static;
     }
-    .logo {
-        width: 100%;
-        margin-left: -65px;
-    }
+
     #main-content {
         width: 510px;
-        margin-left: 32px; 
+        margin-top: 170px;
     }
+
+    /* Fixes for the about page headshot photo */
     .headshot {
         clear: both;
         width: 510px;
@@ -333,6 +332,8 @@ they have diferent aspect ratios.
     .photo-border {
         margin-bottom: 30px;
     }
+
+    /* Fixes for the nav bar & header logo */
     nav ul {
         border-bottom: 1px solid #ccc;
         text-align: center;
@@ -346,16 +347,18 @@ they have diferent aspect ratios.
         list-style-type: none;
         display: inline;
     }
-    #main-content {
-        margin-top: 170px;
+    .logo {
+        width: 100%;
+        margin-left: -65px;
     }
+    /* Fixes for the portfolio page photo display */
     .grid-container {
         display: grid;
         grid-template-columns: 320px;
         background-color: #fff;
         padding: 0;
-      }
-      .grid-item {
+    }
+    .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
         border: 0;
         width: 510px;
@@ -363,12 +366,13 @@ they have diferent aspect ratios.
         margin-bottom: 30px;
         position: relative;
         overflow: hidden;
-      }
-      .portpic {
+    }
+    .portpic {
         width: 510px;
         height: auto;  
     }
-      .banner1 {
+    .banner1 {
         width: 510px;
     }
+
 }
